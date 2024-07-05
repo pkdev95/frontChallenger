@@ -1,0 +1,170 @@
+.asi{
+    width:18.5%;
+    border: 2px solid black;
+    position: absolute;
+    right: 0;
+    top:0;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+    animation: show 1s linear;
+    transition: opacity 1s ease-out;
+    overflow: auto;
+}
+
+.increase{
+
+    cursor: pointer;
+}
+
+.tt{
+   position: absolute;
+   left: 49.8%;
+   top:11%
+   
+}
+
+
+.decrease{
+    cursor: pointer;
+}
+
+.fadeOut{
+
+    opacity: 0;
+
+}
+
+@keyframes show {
+
+from {
+
+    opacity: 0;
+}
+
+to{
+   opacity: 0.5, 0.7, 1.0;
+}
+
+}
+
+.kartTitle{
+    text-align: center;
+    padding-top: 1em;
+}
+
+.topKart{
+    background-color: #0F52BA;
+    height: 99px;
+    color: white;
+}
+
+.kartItemSingle{
+    display: flex;
+    border: 1px solid black;
+    border-bottom-color: #0F52BA;
+}
+
+.descri{
+    margin-top: 6px;
+    margin-left: 3px;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+}
+
+.pric{
+    border-radius: 7px;
+    border: none;
+    background-color: #0F52BA;
+    color: white;
+    font-family: inherit;
+    font-size: 13px;
+    box-shadow: 0px 14px 56px -11px #1875FF;
+    text-align: center;
+    width: 100%;
+    margin-top: 0.4em;
+    height: 3em;  
+    
+}
+
+.pric2{
+
+    border-radius: 7px;
+    border: none;
+    background-color: #0F52BA;
+    color: white;
+    font-family: inherit;
+    font-size: 13px;
+    box-shadow: 0px 14px 56px -11px #1875FF;
+    padding: 0.8em;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    margin-top: 0.4em;
+    height: 3em;
+}
+
+.checkOut{
+    display: flex;
+    margin-right: 4px;
+    width:99%;
+}
+
+.right{
+    width:80%;
+    margin-right:4px;
+    margin-bottom: 5px;
+}
+
+
+.onC{
+    cursor: pointer;
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+
+.close{
+    
+    width: 8%;
+    background-color: black;
+    border-radius: 35%;
+}
+
+
+.qtds{
+ text-align: center;
+ margin-top: 0.5em;
+
+}
+
+.quantity{
+    font-size: 21px;
+}
+
+
+
+.dlt{
+    margin-left:0.1em;
+    background-color: #0F52BA;
+    color: white;
+    font-size: 18px;
+    height: 21px;
+    border-radius: 15px;
+    width:29px;
+    padding-left: 2px;
+    cursor: pointer;
+    margin-top: 0.2em;
+}
+
+@media screen and (max-width: 768px){
+
+.asi{
+
+    width:70%;
+    overflow: auto;
+}
+
+
+}

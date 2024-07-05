@@ -1,0 +1,74 @@
+.navBar{
+    display: flex;
+    background-color: #0F52BA;
+    height: 101px;
+}
+
+
+.boxCartSingle{
+    background-color: #0F52BA;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.boxCart{
+    width:10%;
+    text-align: right;
+    margin-right: 35px;
+    margin-top: 35px;
+    background-color: #0F52BA;
+    cursor: pointer;
+;
+
+}
+
+.qtd{
+    font-size: 19px;
+    margin-top: 0.5em;
+}
+
+
+.sp{
+    font-family: inherit;
+  
+}
+
+.title{
+    color:white;
+    width: 90%;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+
+.boxCartSingle{
+border: 2px solid black;
+background-color: white;
+border-radius: 8px;
+width: 90px;
+height: 45px;
+text-align: center;
+}
+
+.cart{
+    padding-top: 12px;
+    cursor: pointer;
+
+}
+
+.num{
+    padding-top: 12px;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .boxCart{
+        width:20%;
+    ;
+    }
+
+}

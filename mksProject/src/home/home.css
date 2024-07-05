@@ -1,0 +1,15 @@
+.princ{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+}
+
+
+@media screen and (max-width: 768px){
+
+   .princ{
+    grid-template-columns: repeat(1,1fr);
+
+   }
+
+}

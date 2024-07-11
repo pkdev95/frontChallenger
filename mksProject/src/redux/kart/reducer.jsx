@@ -36,12 +36,11 @@ export const kartReducer = (state = initialState, action) => {
       };
 
     case kartActionTypes.addProduct:
-      // verificar se o produto ja está no carrinho
+
       const isAlreadyInToKart = state.products.some(
         (product) => product.id === action.payload.id
       );
 
-      // se ele estiver no carrinho, aumentar sua quantidade em 1
       if (isAlreadyInToKart) {
         return {
           ...state,
@@ -53,7 +52,7 @@ export const kartReducer = (state = initialState, action) => {
         };
       }
 
-      // se ele não estiver, adicioná - lo
+
       return {
         ...state,
         products: [...state.products, { ...action.payload, quantity: 1 }],
